@@ -1,0 +1,169 @@
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white !important;
+    color: #2C4777;
+    font-weight: lighter;
+    font-weight: lighter;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar li {
+        font-size: 18px !important;
+    }
+
+    .hero-title{
+        font-size: 64px;
+    }
+
+    .hero-paragraph{
+        font-size: 26px;
+      }
+
+    .page2-head{
+        font-size: 40px;
+    }
+
+    .feature-page{
+        text-align: left;
+    }
+
+    .feature-page h1{
+        margin-bottom: 20px;
+    }
+
+    .indi-feature{
+        
+    }
+    
+}
+
+
+
+.nav-logo {
+    height: 70px;
+    width: auto;
+}
+
+/* Change the color of navbar links */
+.navbar-nav .nav-link {
+    color: #2C4777; /* Change color as needed */
+}
+
+/* Change the color of navbar links on hover */
+.navbar-nav .nav-link:hover {
+    color: #111; /* Change color as needed */
+}
+
+
+.navbar li {
+    color: #111 !important;
+    font-size: 18px;
+}
+
+.text-color li a {
+    
+    margin-right: 40px;
+    font-weight: normal;
+}
+
+.navbar{
+    
+    background-color: transparent !important;
+}
+
+.text-color li a:active {
+    text-decoration: underline !important;
+}
+
+.btn-primary{
+    background-color: #004a79;
+    color: #eef4ed;
+    border: none;
+    height: 50px;
+    width: 500px;
+    border-radius: 8px;
+}
+
+.btn-outline-secondary{
+    border-color: #004a79;
+    color: #111;
+}
+
+body, html {
+    height: 100%;
+  }
+  
+  /* The hero image */
+  .hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Assets/heropage.jpg");
+  
+  /* Set a specific height */
+  height: 90%;
+  
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+  
+  /* Place text in the middle of the image */
+  .hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  }
+
+  
+
+  .feature-page h1{
+    text-align: center;
+  }
+
+  .feature-page h3{
+    font-weight: 200 !important;
+    font-size: 22px !important;
+  }
+
+  .service-card{
+    color: #2C4777;
+    background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    height: 600px;
+    font-size: 40px !important;
+  }
+
+  .img-container {
+    position: relative;
+    display: block; /* or use "block" if you want it to take the full width */
+  }
+  
+  .text-overlay {
+    font-size: 28px !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }
+
+  .contact{
+    background-color: #2C4777;
+    color: white;
+  }
+ 
+  
+
+  
+
+
