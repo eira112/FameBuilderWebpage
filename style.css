@@ -37,8 +37,8 @@ body {
         margin-bottom: 20px;
     }
 
-    .indi-feature{
-        
+    main{
+        height: 600px;
     }
     
 }
@@ -161,6 +161,88 @@ body, html {
     background-color: #2C4777;
     color: white;
   }
+
+
+  /* for contact */
+
+
+header, footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+main {
+    background-color: #2C4777;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+
+
+.contact-info, .contact-form, .social-media, .location, .business-hours {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 400px; /* Limit the width of the form on larger screens */
+    margin-left: 20px; /* Add some spacing between contact info and form */
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    background-color: white;
+    color: #111;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+
+@media screen and (min-width: 768px) {
+    .contact-info {
+        width: calc(50% - 10px); /* Adjusting for margin */
+        max-width: none;
+        margin-right: 90px;
+    }
+
+    .contact-form {
+        margin-left: 0; /* Remove the left margin */
+        width: calc(50% - 40px);
+    }
+}
+
+
  
   
 

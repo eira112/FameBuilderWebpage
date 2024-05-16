@@ -58,3 +58,23 @@
     margin-bottom: 0px !important;
     
 }
+
+.last-page{
+    background-color: #2C4777;
+    color: white;
+    font-size: 50px !important;
+}
+
+.last-page p{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.about-us-btn{
+    border: white !important;
+    background-color: white;
+    width: 250px;
+    border-radius: 2px;
+    font-weight: 100px;
+    align-self: center;
+}
